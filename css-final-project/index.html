@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      .nav-item .nav-link.active {
+        color: #ff4d29;
+      } 
+
+
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar-2">
+    <!-- navbar 1 :::  -->
+    <section class="nav-1">
+      <div class="contact">
+        <span><i class="fa-regular fa-envelope"></i></span>
+        <span>name@gmail.com</span>
+        <span class="phone-nav1"><i class="fa-solid fa-phone"></i></span>
+        <span>(+216)646464646</span>
+      </div>
+      <nav>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </nav>
+    </section>
+    <!-- navbar 2 :::  -->
+
+    <section class="navbar-2">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav-2 px-5">
+          <a class="navbar-brand" href="#">PRIXIMA <span>.</span> </a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Blogs">Blogs</a>
+              </li>
+              <button type="button" class="btn">Contact</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- caroussel :  -->
+    <section id="Home">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/cover1 .jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="cover-info">
+                <h3>we craft degital experiances</h3>
+                <h1>
+                  design driven for <br />
+                  <h1>professionals</h1>
+                </h1>
+                <button type="button" class="btn px-4 py-2 me-3 fw-bold">
+                  Get Started
+                </button>
+                <button type="button" class="btn btn2-cover px-3 py-2">
+                  Our work
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/cover2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="cover-info">
+                <h3>we craft degital experiances</h3>
+                <h1>
+                  design driven for <br />
+                  <h1>professionals</h1>
+                </h1>
+                <button type="button" class="btn px-4 py-2 me-3 fw-bold">
+                  Get Started
+                </button>
+                <button type="button" class="btn btn2-cover px-3 py-2">
+                  Our work
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <div class="prev-container">
+            <h3>PREV</h3>
+          </div>
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <!-- <span class="visually-hidden">Previous</span> -->
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <div class="next-container">
+            <h3>NEXT</h3>
+          </div>
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span> -->
+        </button>
+      </div>
+    </section>
+
+    <!-- about ::::  -->
+    <section id="About">
+      <div class="about-wrapper">
+        <div class="about-container">
+          <img class="about-logo" src="./images/about-icon.jfif" alt="" />
+          <div class="about-info-container">
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              dolores illum asperiores excepturi numquam ducimus, tenetur
+              nesciunt iusto ad in.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-container">
+          <img class="about-logo" src="./images/about-icon.jfif" alt="" />
+          <div class="about-info-container">
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              dolores illum asperiores excepturi numquam ducimus, tenetur
+              nesciunt iusto ad in.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-container">
+          <img class="about-logo" src="./images/about-icon.jfif" alt="" />
+          <div class="about-info-container">
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              dolores illum asperiores excepturi numquam ducimus, tenetur
+              nesciunt iusto ad in.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img class="about-image" src="./images/about-image.jpg" alt="" />
+    </section>
+
+    <!-- about2 :::  -->
+    <section class="about-2">
+      <div class="about2-info">
+        <h3>90K+</h3>
+        <p>Happy Clients</p>
+      </div>
+      <div class="about2-info">
+        <h3>45M</h3>
+        <p>Lines of code</p>
+      </div>
+      <div class="about2-info">
+        <h3>900</h3>
+        <p>Total Downloads</p>
+      </div>
+      <div class="about2-info">
+        <h3>380K</h3>
+        <p>Youtube Subscribers</p>
+      </div>
+    </section>
+
+    <!-- services :::  -->
+
+    <section id="Services">
+      <div class="service-info">
+        <h5>Our Services</h5>
+        <h2>What We Do ?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et atque
+          sint rerum nostrum optio dolorum doloremque veritatis modi unde,
+          adipisci corporis voluptates expedita magni numquam deserunt placeat
+          soluta dignissimos autem.
+        </p>
+      </div>
+
+      <div class="service-card-container">
+        <div class="service-card">
+          <div class="logo-container">
+            <img src="./images/service-logo.jpg" alt="" />
+          </div>
+          <div class="service-card-info">
+            <h4>Digital Marketing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              nobis mollitia ab, iusto quaerat ducimus?
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="logo-container">
+            <img src="./images/service-logo.jpg" alt="" />
+          </div>
+          <div class="service-card-info">
+            <h4>Digital Marketing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              nobis mollitia ab, iusto quaerat ducimus?
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="logo-container">
+            <img src="./images/service-logo.jpg" alt="" />
+          </div>
+          <div class="service-card-info">
+            <h4>Digital Marketing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              nobis mollitia ab, iusto quaerat ducimus?
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="logo-container">
+            <img src="./images/service-logo.jpg" alt="" />
+          </div>
+          <div class="service-card-info">
+            <h4>Digital Marketing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              nobis mollitia ab, iusto quaerat ducimus?
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="logo-container">
+            <img src="./images/service-logo.jpg" alt="" />
+          </div>
+          <div class="service-card-info">
+            <h4>Digital Marketing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              nobis mollitia ab, iusto quaerat ducimus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio ::  -->
+
+    <section id="Portfolio">
+      <div class="portfolio-container">
+        <div class="portfolio-img">
+          <div class="portfolio-info-card">
+            <h2>Consulting Marketing</h2>
+            <p>Website Design</p>
+          </div>
+        </div>
+
+        <div class="portfolio-img2">
+          <div class="portfolio-info-card">
+            <h2>Consulting Marketing</h2>
+            <p>Website Design</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team :::  -->
+
+    <section id="Team">
+      <div class="team-info">
+        <h2>Team members</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+          veritatis cum laboriosam ex tenetur, doloremque non autem repellat,
+          unde, consequuntur magnam reiciendis iusto optio officiis delectus.
+          Possimus aspernatur unde cum!
+        </p>
+      </div>
+
+      <div class="card-service-container">
+        <div class="card mx-4 my-5" style="width: 18rem;">
+    <div class="img-team-container">
+      <nav>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </nav>
+    </div>
+          <div class="text-center" >
+              <h5>Marvin McKinney</h5>
+              <p>Marketing Cordinator</p>
+          
+
+          </div>
+        </div>
+
+        <div class="card mx-4 my-5" style="width: 18rem;">
+          <div class="img-team-container">
+            <nav>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </nav>
+          </div>
+                <div class="text-center" >
+                    <h5>Marvin McKinney</h5>
+                    <p>Marketing Cordinator</p>
+                
+      
+                </div>
+              </div>
+
+              
+              <div class="card mx-4 my-5" style="width: 18rem;">
+                <div class="img-team-container">
+                  <nav>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                  </nav>
+                </div>
+                     <div class="text-center" >
+                          <h5>Marvin McKinney</h5>
+                          <p>Marketing Cordinator</p>
+                      
+            
+                      </div>
+                    </div>
+            
+
+
+        
+
+
+
+    </section>
+
+    <!-- reviews :::  -->
+     <section id="Reviews">
+      <div class="reviews-container">
+   <img height="110px" width="110px" style="border-radius: 55px;" src="./images/team.jpg" alt="">
+   <h3>Ralph Edwards</h3>
+   <p class="review-info">Market Development Manager</p>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nostrum expedita eveniet quas asperiores? Magnam
+     totam vel quasi dolores fugiat odio modi asperiores earum,
+      veritatis soluta officia numquam? 
+      Repudiandae, sunt?</p>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      </div>
+
+     </section>
+
+     <!-- blogs ::  -->
+
+     <section id="Blogs">
+     <div class="blogs-info">
+     <h4>BLOG</h4>
+     <h2>Blog Posts</h2>
+     <p>Lorem ipsum dolor sit amet consectetur 
+      adipisicing elit. Recusandae asperiores exercitationem repudiandae vero id hic doloremque alias numquam vel adipisci eum, molestias 
+      ut harum ipsam earum corporis dignissimos nisi facilis.</p>
+     </div>
+
+     <div class="card-blog-container">
+
+      <div class="card mx-4" style="width: 18rem;">
+        <img src="./images/about2.jpg" class="card-img-top" alt="...">
+      <div class="card-blog-info">
+        <p class="info">Web Design</p>
+        <p class="date">10/12/2024</p>
+        <h5>Web Design trends in 2022</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur
+        , nulla officiis, voluptatum perspiciatis unde placeat debitis.
+           Fuga tempore aliquid sint delectus. Eaque?</p>
+
+      </div>
+      </div>
+
+      <div class="card mx-4" style="width: 18rem;">
+        <img src="./images/about2.jpg" class="card-img-top" alt="...">
+      <div class="card-blog-info">
+        <p class="info">Web Design</p>
+        <p class="date">10/12/2024</p>
+        <h5>Web Design trends in 2022</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur
+        , nulla officiis, voluptatum perspiciatis unde placeat debitis.
+           Fuga tempore aliquid sint delectus. Eaque?</p>
+
+      </div>
+      </div>
+
+
+      <div class="card mx-4" style="width: 18rem;">
+        <img src="./images/about2.jpg" class="card-img-top" alt="...">
+      <div class="card-blog-info">
+        <p class="info">Web Design</p>
+        <p class="date">10/12/2024</p>
+        <h5>Web Design trends in 2022</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur
+        , nulla officiis, voluptatum perspiciatis unde placeat debitis.
+           Fuga tempore aliquid sint delectus. Eaque?</p>
+
+      </div>
+      </div>
+
+ 
+     </div>
+     </section>
+<footer>
+  
+       <section class="foot">
+      <h4>Prixima</h4><span>.</span>
+      <p>Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Maiores nisi excepturi 
+        reiciendis quibusdam, praesentium corrupti?
+        adipisicing elit. Maiores nisi excepturi 
+        reiciendis quibusdam, praesentium corrupti?
+        <nav>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </nav>
+      </p>
+       </section>
+</footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
